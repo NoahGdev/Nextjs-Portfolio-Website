@@ -44,7 +44,7 @@ cd your-forked-repository
 ```bash
 npm install
 ```
-or
+ or
 ```bash
 yarn install
 ```
