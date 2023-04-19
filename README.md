@@ -24,7 +24,7 @@ Follow these steps to set up and customize your own Next.js portfolio website:
 
 ### Prerequisites
 
-- Node.js (v14 or later)
+- Node.js
 - npm or yarn
 
 ### Installation
