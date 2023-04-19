@@ -1,34 +1,67 @@
-## Getting Started
+# Next.js portfolio website
 
-First, run the development server:
+A customizable Next.js portfolio website template showcasing your skills, projects, and experience. Use this template to build your own personal website and impress potential employers or clients. If you find this template helpful, please leave a ⭐️!
+
+![Project Screenshot](./screenshot.png)
+
+## ✨ Features
+
+- Modern, responsive design
+- Customizable sections and components
+- Built with Next.js for optimal performance
+- SEO-friendly
+- Easy to deploy on platforms like Vercel, Netlify, or Heroku
+
+## 🚀 Live Demo
+
+Check out the live demo of my personal portfolio website built using this template:
+
+[Live Demo](https://inoah.dev)
+
+## 🏁 Getting Started
+
+Follow these steps to set up and customize your own Next.js portfolio website:
+
+### Prerequisites
+
+- Node.js (v14 or later)
+- npm or yarn
+
+### Installation
+
+1. Fork this repository to create your own copy on GitHub.
+
+2. Clone your forked repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+git clone https://github.com/yourusername/your-forked-repo-name.git your-forked-repository
+```
+```bash
+cd your-forked-repository
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Install dependencies
+```bash
+npm install
+```
+or
+```bash
+yarn install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Running the Development Server
 
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.ts`.
+Start the development server by running the following command:
+```bash
+npm run dev
+```
+or
+```bash
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The server will start on port 3000 by default. Open your browser and visit [http://localhost:3000](http://localhost:3000) to view the website.
 
-## Learn More
+## 🌐 Deployment
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Follow the instructions for deploying your project to a hosting provider, such as [Vercel](https://vercel.com/docs), [Netlify](https://www.netlify.com/docs), or [Heroku](https://devcenter.heroku.com/categories/deployment).
