@@ -2,7 +2,7 @@
 
 A customizable Next.js portfolio website template showcasing your skills, projects, and experience. Use this template to build your own personal website and impress potential employers or clients. If you find this template helpful, please leave a ⭐️!
 
-![Project Screenshot](./screenshot.png)
+![Project Screenshot](./public/screenshot.png)
 
 ## ✨ Features
 
