@@ -41,12 +41,9 @@ cd your-forked-repository
 ```
 
 3. Install dependencies
+   Choose from npm or yarn
 ```bash
 npm install
-```
- or
-```bash
-yarn install
 ```
 
 ### Running the Development Server
