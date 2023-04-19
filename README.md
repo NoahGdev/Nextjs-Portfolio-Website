@@ -1,6 +1,6 @@
 # Next.js portfolio website
 
-A customizable Next.js portfolio website template showcasing your skills, projects, and experience. Use this template to build your own personal website and impress potential employers or clients. If you find this template helpful, please leave a ⭐️!
+A Next.js portfolio website template showcasing my (or your) skills, projects, and experience. Use this repo to build your own personal website and impress potential employers or clients. If you find this template helpful, please leave a ⭐️!
 
 ![Project Screenshot](./public/screenshot.png)
 
@@ -14,7 +14,7 @@ A customizable Next.js portfolio website template showcasing your skills, projec
 
 ## 🚀 Live Demo
 
-Check out the live demo of my personal portfolio website built using this template:
+Check out the live demo of my portfolio website below:
 
 [Live Demo](https://inoah.dev)
 
