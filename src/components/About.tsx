@@ -1,22 +1,8 @@
-// components/Hero.tsx
 import React from 'react';
 
 const About: React.FC = () => {
   return (
     <div className="relative flex items-center justify-center h-screen">
-        
-      {/* <svg className="absolute top-0 right-0" width="800" height="800" viewBox="0 0 200 200" preserveAspectRatio="none">
-        <defs>
-          <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
-            <feGaussianBlur in="SourceGraphic" stdDeviation="5" />
-          </filter>
-          <radialGradient id="custom-gradient">
-            <stop offset="30%" stopColor="#1f0a41" />
-            <stop offset="100%" stopColor="black" />
-          </radialGradient>
-        </defs>
-        <circle cx="200" cy="200" r="100" fill="url(#custom-gradient)" filter="url(#blur)" />
-      </svg> */}
       <div className="text-white px-6 md:px-12">
         <h2 className="text-center text-xl md:text-3xl font-bold mb-20 mt-0">Hi, my name is Noah</h2>
 
