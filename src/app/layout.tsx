@@ -1,9 +1,6 @@
 import './globals.css'
-// import Navbar from './components/NavBar'
-import Navbar from './components/NavBar'
-import Hero from './components/Hero'
-import About from './components/About'
-import VerticalTimeline  from './components/Timeline'
+import Navbar from '@/components/NavBar'
+import Footer from '@/components/Footer'
 
 export const metadata = {
   title: 'iNoah',
@@ -19,10 +16,8 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Navbar/>
-        <Hero/>
-        <About/>
-        <VerticalTimeline/>
         {children}
+        <Footer/>
       </body>
     </html>
   )

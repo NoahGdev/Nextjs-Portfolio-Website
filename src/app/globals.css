@@ -104,3 +104,28 @@ body {
     background-color: linear-gradient(135deg, #db27ec3d, #5105ca00);
     clip-path: polygon(0 100%, 100% 100%, 100% 0);
 }
+
+.timeline-bg1 {
+    background-image: url("https://nextui.org/dark-mode-gradient.svg");
+    background-position: 20px;
+    background-position-y: -500px;
+    background-repeat: no-repeat;
+}
+
+.timeline-bg2 {
+    background-image: url("https://nextui.org/stitches-gradient.svg");
+    background-position: -600px;
+    background-position-y: -500px;
+    background-repeat: no-repeat;
+}
+
+.footer-extra {
+    border-top: #1d1c1c 2px solid;
+    ;
+}
+
+.pw-bg {
+    background-image: url("https://nextui.org/gradient-left-dark.svg");
+    background-position: -500px;
+    background-repeat: repeat;
+}
