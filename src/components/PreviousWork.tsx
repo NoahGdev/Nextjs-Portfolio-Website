@@ -35,6 +35,19 @@ const projects = [
       description: 'Checkout a list of freelance work I have done and what i learned from it here.',
       imageUrl: 'https://images.ctfassets.net/qr8kennq1pom/1FwKqQoHL68jdVhdkJBJcI/12576e11f3d925df875ebdcb38db9f0a/Freelance.jpg',
       caseStudyUrl: '/',
+    },
+    {
+      title: 'University Ticketing System',
+      description: 'A school prject to make a system that allows users to do things such as create an EC claim, Tickets, and check status of services.\
+      This also consisted of an Admin side to the page. Fidn out more by clicking on this card!',
+      imageUrl: 'https://opengraph.githubassets.com/7b02cda8e327adcedfc900200743207256260a375221cc7525a175d8d1c475ca/NoahGdev/Hermes',
+      caseStudyUrl: '/Hermes',
+    },
+    {
+      title: 'This website ✨',
+      description: 'Portfolio website built in Next.js 13 to showcase my projects, experience ans resume through a cooler way. Checkout the repo and more by clicking on me.',
+      imageUrl: 'https://nextjs.org/static/blog/next-13/twitter-card.png',
+      caseStudyUrl: '/ThisSite',
     }
   ];
 

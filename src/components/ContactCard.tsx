@@ -1,22 +1,34 @@
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import React from 'react';
+import { FaGithub, FaLinkedin, FaTwitter, FaDiscord } from 'react-icons/fa';
 
 const ContactCard: React.FC = () => {
   return (
-    <div className="bg-gray-900 py-8">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <a href="https://github.com/your-github-username" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center bg-gray-800 py-4 px-6 rounded-lg">
-            <FaGithub className="text-4xl text-white" />
-          </a>
-          <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center bg-gray-800 py-4 px-6 rounded-lg">
-            <FaLinkedin className="text-4xl text-white" />
-          </a>
-          <a href="mailto:your-email@example.com" className="flex items-center justify-center bg-gray-800 py-4 px-6 rounded-lg">
-            <FaEnvelope className="text-4xl text-white" />
-          </a>
+    <>
+        <h2 className="text-2xl font-bold mb-2 text-center">Check out my socials below! ✨</h2>
+        <div className="bg-transparent border p-8 rounded-lg shadow-lg text-white w-full md:max-w-4xl mx-auto mt-8 cc-bg blur-background">
+            <div className="flex justify-between items-center">
+                <div>
+                    <h2 className="text-2xl font-bold mb-2">Noah Gomes</h2>
+                    <p className="text-sm mb-4">Software Engineer</p>
+                    <button className="bg-inherit border text-purple-200 px-4 py-2 rounded shadow hover:bg-gray-100 hover:text-black transition-colors duration-200">
+                        Email Me
+                    </button>
+                </div>
+
+                <div className="flex space-x-4">
+                    <a href="https://github.com/NoahGdev" target="_blank" rel="noreferrer" className="hover:text-gray-200">
+                        <FaGithub size={44} />
+                    </a>
+                    <a href="https://www.linkedin.com/in/noah-gomes" target="_blank" rel="noreferrer" className="hover:text-gray-200">
+                        <FaLinkedin size={44} />
+                    </a>
+                    <a href="https://discord.com/users/801636548218191893" target="_blank" rel="noreferrer" className="hover:text-gray-200">
+                        <FaDiscord size={44} />
+                    </a>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
+    </>
   );
 };
 

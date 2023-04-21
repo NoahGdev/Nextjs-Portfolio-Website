@@ -1,4 +1,6 @@
 import React from 'react';
+import { FaBriefcase } from 'react-icons/fa'
+import Link from 'next/link';
 
 const About: React.FC = () => {
   return (
@@ -12,7 +14,7 @@ const About: React.FC = () => {
                 <div className="space-y-6">
                     <p className="text-gray-800 dark:text-gray-200">
                         I'm a 20 year old developer who started off as self-taught then went to Queen Mary university of London to study Computer Science and Mathematics.
-                        I am in my second year at uni and have been coding for 3 years now. I enjoy learning new technologies, languages, and experiencing working with new
+                        I am in my second year at uni and have been coding for 3 years now. I code every single day and I enjoy learning new technologies, languages, and experiencing working with new
                         teams on new and cool projects.
                     </p>
                     <h3 className="text-xl font-semibold text-gray-800 dark:text-white">Languages & Frameworks</h3>
