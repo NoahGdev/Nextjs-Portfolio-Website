@@ -119,11 +119,6 @@ body {
     background-repeat: no-repeat;
 }
 
-.footer-extra {
-    border-top: #1d1c1c 2px solid;
-    ;
-}
-
 .pw-bg {
     background-image: url("https://nextui.org/gradient-left-dark.svg");
     background-position: -600px;
@@ -134,4 +129,10 @@ body {
     background-position: -400px;
     background-repeat: repeat;
     background-size: cover;
+}
+
+.footer-b {
+    border-top: #1d1c1c 2px solid;
+    background-image: url("https://nextui.org/stitches-gradient.svg");
+    background-position: -320px;
 }

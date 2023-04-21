@@ -1,6 +1,4 @@
 import React from 'react';
-import { FaBriefcase } from 'react-icons/fa'
-import Link from 'next/link';
 
 const About: React.FC = () => {
   return (
@@ -34,7 +32,6 @@ const About: React.FC = () => {
         </div>
       </div>
     </div>
-    
   );
 };
 

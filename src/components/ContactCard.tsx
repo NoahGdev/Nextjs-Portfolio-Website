@@ -1,11 +1,11 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaTwitter, FaDiscord } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaDiscord } from 'react-icons/fa';
 
 const ContactCard: React.FC = () => {
   return (
     <>
         <h2 className="text-2xl font-bold mb-2 text-center">Check out my socials below! ✨</h2>
-        <div className="bg-transparent border p-8 rounded-lg shadow-lg text-white w-full md:max-w-4xl mx-auto mt-8 cc-bg blur-background">
+        <div className="bg-transparent border p-8 rounded-lg shadow-lg text-white w-full md:max-w-4xl mx-auto mt-8 cc-bg blur-background w-4/5">
             <div className="flex justify-between items-center">
                 <div>
                     <h2 className="text-2xl font-bold mb-2">Noah Gomes</h2>
