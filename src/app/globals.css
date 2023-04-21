@@ -126,6 +126,12 @@ body {
 
 .pw-bg {
     background-image: url("https://nextui.org/gradient-left-dark.svg");
-    background-position: -500px;
+    background-position: -600px;
+}
+
+.cc-bg {
+    background-image: url("https://nextui.org/gradient-right-dark.svg");
+    background-position: -400px;
     background-repeat: repeat;
+    background-size: cover;
 }
