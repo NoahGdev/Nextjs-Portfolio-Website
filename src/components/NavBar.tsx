@@ -59,7 +59,7 @@ const Navbar: React.FC = () => {
               <path d="M4 6h16M4 12h16M4 18h16"></path>
             </svg>
           </button>
-          <Link href="/Test" className="hidden md:flex">
+          <Link href="https://github.com/NoahGdev" target="_blank" className="hidden md:flex">
             <img src="/github-mark-white.svg" alt="" className='GitHub' />
           </Link>
         </div>
