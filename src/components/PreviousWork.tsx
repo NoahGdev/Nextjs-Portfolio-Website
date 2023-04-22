@@ -7,10 +7,6 @@ interface Project {
   caseStudyUrl: string;
 }
 
-interface Props {
-  projects: Project[];
-}
-
 const projects = [
     {
       title: 'Ambush.IO',

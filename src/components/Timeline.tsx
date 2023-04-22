@@ -44,7 +44,7 @@ const TimelineItem: React.FC<TimelineItemProps> = ({ experience, side }) => {
 
 const VerticalTimeline: React.FC = () => {
   return (
-    <div className="h-screen text-white py-12 dark:bg-transparent">
+    <div className="h-auto text-white py-12 dark:bg-transparent">
       <h2 className="text-3xl font-bold mb-16 text-center">Work Experience</h2>
       <div className="container mx-auto px-6">
         <div className="relative w-full">
