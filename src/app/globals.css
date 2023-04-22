@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 :root {
-    --foreground-rgb: 0, 0, 0;
-    --background-start-rgb: 214, 219, 220;
-    --background-end-rgb: 255, 255, 255;
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -135,4 +135,25 @@ body {
     border-top: #1d1c1c 2px solid;
     background-image: url("https://nextui.org/stitches-gradient.svg");
     background-position: -320px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.animated-gradient {
+    background: linear-gradient(270deg, #d83cff, #00a3ff, #8b5ef3);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline;
+    animation: gradient 5s ease infinite;
 }
