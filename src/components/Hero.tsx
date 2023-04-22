@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
         </g>
       </svg>
       <div className="text-center text-white px-6 md:px-12">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4"><span className='animated-gradient'>Welcome to my porftolio! </span>👋</h1>
+        <h1 className="text-4xl md:text-6xl font-bold mb-4"><span className='animated-gradient'>Welcome to my portfolio! </span>👋</h1>
         <p className="text-xl md:text-2xl mb-8">
           This website is for me to showcase my previous projects and achievements, hope you enjoy your stay!
           <p>
