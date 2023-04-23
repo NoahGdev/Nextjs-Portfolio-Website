@@ -150,7 +150,7 @@ body {
 }
 
 .animated-gradient {
-    background: linear-gradient(270deg, #d83cff, #00a3ff, #d1d36b);
+    background: linear-gradient(270deg, #dc52ff, #00a3ff, #8b5ef3);
     background-size: 200% 200%;
     -webkit-background-clip: text;
     color: transparent;
