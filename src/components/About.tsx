@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const About: React.FC = () => {
   return (
@@ -24,7 +25,9 @@ const About: React.FC = () => {
                             <li>HTML / CSS / Tailwind CSS</li>
                         </ul>
                         <button className="bg-transparent border hover:bg-white hover:text-black font-bold py-2 px-4 rounded hover:border-none">
-                            Resume
+                            <Link href='https://resume.io/r/kpSyznSzv' target='_blank'>
+                              Resume
+                            </Link>
                         </button>
                     </div>
                 </div>

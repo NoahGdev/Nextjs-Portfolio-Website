@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaDiscord } from 'react-icons/fa';
+import Link from 'next/link';
 
 const ContactCard: React.FC = () => {
   return (
@@ -11,7 +12,9 @@ const ContactCard: React.FC = () => {
                     <h2 className="text-2xl font-bold mb-2">Noah Gomes</h2>
                     <p className="text-sm mb-4">Software Engineer</p>
                     <button className="bg-inherit border text-purple-200 px-4 py-2 rounded shadow hover:bg-gray-100 hover:text-black transition-colors duration-200">
-                        Email Me
+                        <Link href='https://resume.io/r/kpSyznSzv' target='_blank'>
+                            Resume
+                        </Link>
                     </button>
                 </div>
 

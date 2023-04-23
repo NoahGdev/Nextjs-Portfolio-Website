@@ -59,20 +59,20 @@ const Navbar: React.FC = () => {
               <path d="M4 6h16M4 12h16M4 18h16"></path>
             </svg>
           </button>
-          <Link href="https://github.com/NoahGdev" target="_blank" className="hidden md:flex">
+          <Link href="/Test" className="hidden md:flex">
             <img src="/github-mark-white.svg" alt="" className='GitHub' />
           </Link>
         </div>
       </nav>
       <div className={`md:hidden ${mobileMenuOpen ? 'flex' : 'hidden'} justify-between mt-4 mb-6 ml-5`}>
         <div className="flex flex-col space-y-4">
-          <Link href="/features" className="text-lg font-medium text-gray-800 dark:text-white hover:text-gray-900 dark:hover:text-gray-300">
+          <Link href="/" className="text-lg font-medium text-gray-800 dark:text-white hover:text-gray-900 dark:hover:text-gray-300">
             Home
           </Link>
-          <Link href="/pricing" className="text-lg font-medium text-gray-800 dark:text-white hover:text-gray-900 dark:hover:text-gray-300">
+          <Link href="/" className="text-lg font-medium text-gray-800 dark:text-white hover:text-gray-900 dark:hover:text-gray-300">
             Previous Work
           </Link>
-          <Link href="/contact" className="text-lg font-medium text-gray-800 dark:text-white hover:text-gray-900 dark:hover:text-gray-300">
+          <Link href="/" className="text-lg font-medium text-gray-800 dark:text-white hover:text-gray-900 dark:hover:text-gray-300">
             Contact
           </Link>
         </div>
