@@ -26,19 +26,19 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <header className={`fixed w-full bg-transparent z-50 mnhdr h-auto transition-all ${scrolling ? 'blur-background' : ''} ${mobileMenuOpen ? 'h-24' : ''}`}>
+    <header className={`fixed w-full bg-transparent z-50 mnhdr h-auto transition-all ${scrolling ? 'blur-background' : ''} ${mobileMenuOpen ? 'h-24 blur-background' : ''}`}>
       <nav className="container mx-auto px-6 py-3 flex justify-between items-center">
         <Link href="/" className="text-2xl font-semibold text-gray-800 dark:text-white">
           iNoah
         </Link>
         <div className="hidden md:flex space-x-6">
-          <Link href="/features" className="text-lg font-medium text-gray-800 dark:text-white hover:text-gray-900 dark:hover:text-gray-300">
+          <Link href="/" className="text-lg font-medium text-gray-800 dark:text-white hover:text-gray-900 dark:hover:text-gray-300">
             Home
           </Link>
-          <Link href="/pricing" className="text-lg font-medium text-gray-800 dark:text-white hover:text-gray-900 dark:hover:text-gray-300">
+          <Link href="/PreviousWork" className="text-lg font-medium text-gray-800 dark:text-white hover:text-gray-900 dark:hover:text-gray-300">
             Previous Work
           </Link>
-          <Link href="/contact" className="text-lg font-medium text-gray-800 dark:text-white hover:text-gray-900 dark:hover:text-gray-300">
+          <Link href="/Contact" className="text-lg font-medium text-gray-800 dark:text-white hover:text-gray-900 dark:hover:text-gray-300">
             Contact
           </Link>
         </div>
@@ -59,7 +59,7 @@ const Navbar: React.FC = () => {
               <path d="M4 6h16M4 12h16M4 18h16"></path>
             </svg>
           </button>
-          <Link href="/Test" className="hidden md:flex">
+          <Link href="https://github.com/NoahGdev" target='_blank' className="hidden md:flex">
             <img src="/github-mark-white.svg" alt="" className='GitHub' />
           </Link>
         </div>
@@ -69,14 +69,14 @@ const Navbar: React.FC = () => {
           <Link href="/" className="text-lg font-medium text-gray-800 dark:text-white hover:text-gray-900 dark:hover:text-gray-300">
             Home
           </Link>
-          <Link href="/" className="text-lg font-medium text-gray-800 dark:text-white hover:text-gray-900 dark:hover:text-gray-300">
+          <Link href="/PreviousWork" className="text-lg font-medium text-gray-800 dark:text-white hover:text-gray-900 dark:hover:text-gray-300">
             Previous Work
           </Link>
-          <Link href="/" className="text-lg font-medium text-gray-800 dark:text-white hover:text-gray-900 dark:hover:text-gray-300">
+          <Link href="/Contact" className="text-lg font-medium text-gray-800 dark:text-white hover:text-gray-900 dark:hover:text-gray-300">
             Contact
           </Link>
         </div>
-        <Link href="/Test" className="text-lg font-medium text-gray-800 dark:text-white hover:text-gray-900 dark:hover:text-gray-300 flex items-center mt-20 mr-4">
+        <Link href="https://github.com/NoahGdev" target='_blank' className="text-lg font-medium text-gray-800 dark:text-white hover:text-gray-900 dark:hover:text-gray-300 flex items-center mt-20 mr-4">
           <img src="/github-mark-white.svg" alt="" className='GitHub' />
         </Link>
       </div>

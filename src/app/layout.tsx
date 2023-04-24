@@ -3,13 +3,17 @@ import Navbar from '@/components/NavBar'
 import Footer from '@/components/Footer'
 
 export const metadata = {
+  title: "iNoah",
+  description: 'Welcome to my portfolio!',
   openGraph: {
     title: 'iNoah',
     description: 'Welcome to my portfolio!',
     siteName: 'inoah.dev',
     images: [
       {
-        url: "/screenshot.png"
+        url: "/screenshot.png",
+        width: 800,
+        height: 600,
       }
     ],
     locale: 'en-GB',
