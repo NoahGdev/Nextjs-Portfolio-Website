@@ -63,4 +63,4 @@ The server will start on port 3000 by default. Open your browser and visit [http
 
 ## 🌐 Deployment
 
-Follow the instructions for deploying your project to a hosting provider, such as [Vercel](https://vercel.com/docs), [Netlify](https://www.netlify.com/docs), or [Heroku](https://devcenter.heroku.com/categories/deployment).
+Follow the instructions for deploying your project to a hosting provider, such as [Vercel](https://vercel.com/docs), [Netlify](https://www.netlify.com/docs) etc..
