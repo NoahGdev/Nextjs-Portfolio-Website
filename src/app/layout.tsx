@@ -9,9 +9,7 @@ export const metadata = {
     siteName: 'inoah.dev',
     images: [
       {
-        url: "/screenshot.png",
-        width: 800,
-        height: 600,
+        url: "/screenshot.png"
       }
     ],
     locale: 'en-GB',
