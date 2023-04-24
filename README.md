@@ -4,6 +4,8 @@ A Next.js portfolio website template showcasing my (or your) skills, projects, e
 
 ![Project Screenshot](./public/screenshot.png)
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FNoahGdev%2FNext.js-Portfolio-Website)
+
 ## ✨ Features
 
 - Modern, responsive design
