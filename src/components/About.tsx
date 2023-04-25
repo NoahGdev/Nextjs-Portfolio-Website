@@ -8,17 +8,17 @@ const About: React.FC = () => {
         <h2 className="text-center text-xl md:text-3xl font-bold mb-20 mt-0">Hi, my name is Noah</h2>
 
         <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-            <div className="bg-white dark:bg-transparent rounded-lg shadow-lg px-5 py-6 sm:px-6 my-10 w-full max-w-3xl mx-auto border blur-background2 mt-0">
-                <h2 className="text-2xl font-semibold text-gray-800 dark:text-white mb-6">About Me</h2>
+            <div className="bg-transparent rounded-lg shadow-lg px-5 py-6 sm:px-6 my-10 w-full max-w-3xl mx-auto border blur-background2 mt-0">
+                <h2 className="text-2xl font-semibold text-gray-800 text-white mb-6">About Me</h2>
                 <div className="space-y-6">
-                    <p className="text-gray-800 dark:text-gray-200">
+                    <p className="text-gray-800 text-gray-200">
                         I'm a 20 year old developer who started off as self-taught then went to Queen Mary university of London to study Computer Science and Mathematics.
                         I am in my second year at uni and have been coding for 3 years now. I code every single day and I enjoy learning new technologies, languages, and experiencing working with new
                         teams on new and cool projects.
                     </p>
-                    <h3 className="text-xl font-semibold text-gray-800 dark:text-white">Languages & Frameworks</h3>
+                    <h3 className="text-xl font-semibold text-gray-800 text-white">Languages & Frameworks</h3>
                     <div className="flex justify-between items-end">
-                        <ul className="list-disc pl-5 text-gray-600 dark:text-gray-400">
+                        <ul className="list-disc pl-5 text-gray-600 text-gray-400">
                             <li>JavaScript / TypeScript</li>
                             <li>React / Next.js</li>
                             <li>Python / Flask</li>

@@ -32,11 +32,11 @@ interface TimelineItemProps {
 const TimelineItem: React.FC<TimelineItemProps> = ({ experience, side }) => {
   return (
     <div className={`relative w-full my-6 ${side === 'right' ? 'md:ml-auto' : 'md:mr-auto'} md:w-2/5 ${side === 'right' ? 'timeline-bg1' : 'timeline-bg2'}`}>
-      <div className={`bg-transparent dark:bg-transparent border dark:border-grey rounded-lg p-6 `}>
+      <div className={`bg-transparent bg-transparent border border-grey rounded-lg p-6 `}>
         <h3 className="text-xl font-semibold mb-2">{experience.role}</h3>
-        <h4 className="text-purple-300 dark:text-purple-300 mb-4">{experience.company}</h4>
-        <p className="text-purple-200 dark:text-purple-200 mb-2">{experience.date}</p>
-        <p className="text-black dark:text-white">{experience.description}</p>
+        <h4 className="text-purple-300 text-purple-300 mb-4">{experience.company}</h4>
+        <p className="text-purple-200 text-purple-200 mb-2">{experience.date}</p>
+        <p className="text-black text-white">{experience.description}</p>
       </div>
     </div>
   );
@@ -44,11 +44,11 @@ const TimelineItem: React.FC<TimelineItemProps> = ({ experience, side }) => {
 
 const VerticalTimeline: React.FC = () => {
   return (
-    <div className="h-auto text-white py-12 dark:bg-transparent">
+    <div className="h-auto text-white py-12 bg-transparent">
       <h2 className="text-3xl font-bold mb-16 text-center">Work Experience</h2>
       <div className="container mx-auto px-6">
         <div className="relative w-full">
-          <div className="hidden md:block border-l-2 border-purple-600 dark:border-purple-450 absolute left-1/2 transform -translate-x-1/2 h-full"></div>
+          <div className="hidden md:block border-l-2 border-purple-600 border-purple-450 absolute left-1/2 transform -translate-x-1/2 h-full"></div>
           {experiences.map((experience, index) => (
             <TimelineItem
               key={experience.id}
