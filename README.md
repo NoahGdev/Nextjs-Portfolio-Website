@@ -67,5 +67,6 @@ Follow the instructions for deploying your project to a hosting provider, such a
 
 ## 📝 TODO 
 
+- Add Light & Dark theme toggle
 - Add Pages (PreviousWork, Contact, Maybe custom resume page)
 - Add Loading.tsx for each route with skeleton
