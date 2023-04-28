@@ -31,14 +31,11 @@ Follow these steps to set up and customize your own Next.js portfolio website:
 
 ### Installation
 
-1. Fork this repository to create your own copy on GitHub.
-
-2. Clone your forked repository:
+1. Clone repository:
 
 ```bash
-git clone https://github.com/yourusername/your-forked-repo-name.git your-forked-repository
-```
-```bash
+git clone https://github.com/NoahGdev/Nextjs-Portfolio-Website.git your-forked-repository
+
 cd your-forked-repository
 ```
 
