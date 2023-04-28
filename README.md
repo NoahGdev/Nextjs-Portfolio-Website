@@ -12,7 +12,7 @@ A Next.js portfolio website template showcasing my (or your) skills, projects, e
 - Customizable sections and components
 - Built with Next.js for optimal performance
 - SEO-friendly
-- Easy to deploy on platforms like Vercel, Netlify, or Heroku
+- Easy to deploy on Vercel
 
 ## 🚀 Live Demo
 
