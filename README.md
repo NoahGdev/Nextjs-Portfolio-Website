@@ -1,6 +1,6 @@
 # Next.js portfolio website
 
-A Next.js portfolio website template showcasing my (or your) skills, projects, experience, and more. Use this repo to build your own personal website and impress potential employers or clients. If you find this template helpful, please leave a ⭐️!
+A Next.js portfolio website template showcasing my (or your) skills, projects, experience, and more. Use this repo to build your own personal website and impress potential employers or clients.
 
 ![Project Screenshot](./public/screenshot.png)
 
@@ -11,6 +11,7 @@ A Next.js portfolio website template showcasing my (or your) skills, projects, e
 - Modern, responsive design
 - Customizable sections and components
 - Built with Next.js for optimal performance
+- Styling in Tailwindcss
 - SEO-friendly
 - Easy to deploy on Vercel
 
